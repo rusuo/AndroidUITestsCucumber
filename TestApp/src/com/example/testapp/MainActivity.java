@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
+	
 	/** Called when the user clicks the Send button */
 	public void sendMessage(View view) {
 		Intent intent = new Intent(this, DisplayMessageActivity.class);
