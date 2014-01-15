@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith (Cucumber.class)
-@CucumberOptions(format = {"pretty", "html:/sdcard/android.test/cucumber-html", "json:/sdcard/android.test/report.json"}, features = "features")
+@CucumberOptions(format = {"pretty", "html:/data/data/com.example.testapp/report"}, features = "features")
 public class RunTest {
 
 }
