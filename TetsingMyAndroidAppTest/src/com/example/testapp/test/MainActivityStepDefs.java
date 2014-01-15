@@ -1,7 +1,5 @@
 package com.example.testapp.test;
 
-import org.junit.Before;
-
 import android.annotation.SuppressLint;
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.Button;
@@ -24,12 +22,6 @@ public class MainActivityStepDefs extends ActivityInstrumentationTestCase2<MainA
 		super(MainActivity.class);
 	}
 
-//	@Before
-//	public void setUp() throws Exception{
-//		super.setUp();		
-//		setActivityInitialTouchMode(false);	
-//	}
-	
 	@Given("^I am launching the application$")
 	public void I_am_launching_the_application() throws Exception {
 		super.setUp();
